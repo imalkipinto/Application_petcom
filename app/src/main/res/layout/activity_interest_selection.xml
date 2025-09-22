@@ -44,7 +44,7 @@
         android:id="@+id/btnContinue"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/orange"
+        android:backgroundTint="@color/teal_primary"
         android:text="Continue"
         android:textColor="@android:color/white"
         android:layout_marginTop="8dp"/>
