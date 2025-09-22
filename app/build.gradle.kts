@@ -51,6 +51,8 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+    implementation(platform("com.google.firebase:firebase-bom:33.4.0"))
+    implementation("com.google.firebase:firebase-analytics")
     
     // Jetpack Compose BOM
     implementation(platform("androidx.compose:compose-bom:2024.02.00"))
