@@ -5,15 +5,278 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background_light"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+    <!-- Decorative paw prints scattered around -->
+    <ImageView
+        android:id="@+id/paw1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_paw_print"
+        android:alpha="0.6"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="60dp" />
+
+    <ImageView
+        android:id="@+id/paw2"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:src="@drawable/ic_paw_print"
+        android:alpha="0.5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="80dp" />
+
+    <ImageView
+        android:id="@+id/paw3"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:src="@drawable/ic_paw_print"
+        android:alpha="0.4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="180dp"
+        android:layout_marginStart="100dp" />
+
+    <ImageView
+        android:id="@+id/paw4"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:src="@drawable/ic_paw_print"
+        android:alpha="0.7"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="40dp" />
+
+    <ImageView
+        android:id="@+id/paw5"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_paw_print"
+        android:alpha="0.6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logo_container"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="60dp" />
+
+    <ImageView
+        android:id="@+id/paw6"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_paw_print"
+        android:alpha="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/get_started_button"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="60dp" />
+
+    <ImageView
+        android:id="@+id/paw7"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:src="@drawable/ic_paw_print"
+        android:alpha="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="120dp" />
+
+    <ImageView
+        android:id="@+id/paw8"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:src="@drawable/ic_paw_print"
+        android:alpha="0.6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="80dp" />
+
+    <ImageView
+        android:id="@+id/paw9"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:src="@drawable/ic_paw_print"
+        android:alpha="0.3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginStart="120dp"
+        android:layout_marginBottom="200dp" />
+
+    <ImageView
+        android:id="@+id/paw10"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_paw_print"
+        android:alpha="0.5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="160dp" />
+
+    <!-- Large dog paw prints -->
+    <ImageView
+        android:id="@+id/large_paw1"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/ic_paw_print"
+        android:alpha="0.4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="30dp" />
+
+    <ImageView
+        android:id="@+id/large_paw2"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:src="@drawable/ic_paw_print"
+        android:alpha="0.3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="20dp" />
+
+    <ImageView
+        android:id="@+id/large_paw3"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:src="@drawable/ic_paw_print"
+        android:alpha="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="250dp" />
+
+    <ImageView
+        android:id="@+id/large_paw4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_paw_print"
+        android:alpha="0.35"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logo_container"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="80dp" />
+
+    <ImageView
+        android:id="@+id/large_paw5"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:src="@drawable/ic_paw_print"
+        android:alpha="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="50dp" />
+
+    <ImageView
+        android:id="@+id/large_paw6"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_paw_print"
+        android:alpha="0.6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="40dp" />
+
+    <ImageView
+        android:id="@+id/large_paw8"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:contentDescription="@string/todo2"
+        android:src="@drawable/ic_paw_print"
+        android:alpha="0.5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="320dp"
+        android:layout_marginStart="300dp" />
+
+    <!-- Main logo container -->
+
+    <!-- App name -->
+    <FrameLayout
+        android:id="@+id/logo_container"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/logo_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.435">
+
+        <!-- Paw print icon inside logo -->
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/ic_paw_print"
+            app:tint="@color/white" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/petpal"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_dark"
+        android:fontFamily="sans-serif-medium"
+        app:layout_constraintTop_toBottomOf="@id/logo_container"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp" />
+
+    <!-- Tagline -->
+    <TextView
+        android:id="@+id/tagline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/everything_for_your_pet_in_one_app"
+        android:textSize="16sp"
+        android:textColor="@color/text_gray"
+        android:fontFamily="sans-serif"
+        app:layout_constraintTop_toBottomOf="@id/app_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp" />
+
+    <!-- Get Started Button -->
+    <Button
+        android:id="@+id/get_started_button"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:text="@string/get_started"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@drawable/get_started_button"
+        android:elevation="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="80dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/get_started_button"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="554dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
