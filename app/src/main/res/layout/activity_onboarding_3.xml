@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background_light"
@@ -23,34 +24,37 @@
         android:layout_marginEnd="16dp" />
 
     <!-- Main content container -->
+
+    <!-- Title -->
     <LinearLayout
         android:id="@+id/content_container"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
         android:background="@drawable/placeholder_main_image"
+        android:orientation="vertical"
         android:padding="24dp"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintVertical_bias="0.4">
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.265">
 
         <!-- Top icons row -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
+            android:layout_marginBottom="32dp"
             android:gravity="center"
-            android:layout_marginBottom="32dp">
+            android:orientation="horizontal">
 
             <FrameLayout
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:background="@drawable/icon_circle_background"
-                android:layout_marginEnd="40dp">
+                android:layout_marginEnd="40dp"
+                android:background="@drawable/icon_circle_background">
 
                 <ImageView
                     android:layout_width="28dp"
@@ -85,11 +89,11 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:background="@drawable/notification_card_background"
-                android:padding="16dp"
                 android:layout_marginBottom="12dp"
-                android:gravity="center_vertical">
+                android:background="@drawable/notification_card_background"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="16dp">
 
                 <FrameLayout
                     android:layout_width="40dp"
@@ -108,12 +112,12 @@
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
                     android:layout_weight="1"
-                    android:text="@string/bruno_vaccination_due"
-                    android:textSize="14sp"
-                    android:textColor="@color/text_dark"
                     android:lineSpacingExtra="2dp"
-                    android:layout_marginStart="12dp" />
+                    android:text="@string/bruno_vaccination_due"
+                    android:textColor="@color/text_dark"
+                    android:textSize="14sp" />
 
             </LinearLayout>
 
@@ -121,10 +125,10 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
                 android:background="@drawable/notification_card_background"
-                android:padding="16dp"
-                android:gravity="center_vertical">
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="16dp">
 
                 <FrameLayout
                     android:layout_width="40dp"
@@ -143,12 +147,12 @@
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
                     android:layout_weight="1"
-                    android:text="@string/dog_food_supply_low"
-                    android:textSize="14sp"
-                    android:textColor="@color/text_dark"
                     android:lineSpacingExtra="2dp"
-                    android:layout_marginStart="12dp" />
+                    android:text="@string/dog_food_supply_low"
+                    android:textColor="@color/text_dark"
+                    android:textSize="14sp" />
 
             </LinearLayout>
 
@@ -156,7 +160,6 @@
 
     </LinearLayout>
 
-    <!-- Title -->
     <TextView
         android:id="@+id/title"
         android:layout_width="wrap_content"
@@ -226,17 +229,18 @@
         android:id="@+id/get_started_button"
         android:layout_width="0dp"
         android:layout_height="56dp"
-        android:text="@string/get_started_final"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        android:textColor="@color/white"
-        android:backgroundTint="@color/orange_primary"
-        android:elevation="4dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
-        android:layout_marginBottom="40dp" />
+        android:layout_marginBottom="60dp"
+        android:backgroundTint="@color/orange_primary"
+        android:elevation="4dp"
+        android:text="@string/get_started_final"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

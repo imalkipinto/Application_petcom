@@ -7,4 +7,20 @@
     <color name="text_dark">#333333</color>
     <color name="text_gray">#666666</color>
     <color name="background_light">#FfFcf8</color>
+    
+    <!-- Glassmorphism Colors -->
+    <color name="glass_white">#33FFFFFF</color>
+    <color name="glass_white_strong">#4DFFFFFF</color>
+    <color name="glass_teal">#334ECDC4</color>
+    <color name="glass_blue">#335B9BD5</color>
+    <color name="glass_purple">#339B59B6</color>
+    <color name="glass_gradient_start">#4D5B9BD5</color>
+    <color name="glass_gradient_end">#4D9B59B6</color>
+    <color name="glass_border">#1AFFFFFF</color>
+    <color name="glass_shadow">#1A000000</color>
+    
+    <!-- Status Colors -->
+    <color name="success_green">#4CAF50</color>
+    <color name="error_red">#F44336</color>
+    <color name="warning_orange">#FF9800</color>
 </resources>

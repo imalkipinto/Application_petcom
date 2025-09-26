@@ -49,10 +49,13 @@ dependencies {
     implementation(libs.androidx.activity.ktx)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.cardview)
+    implementation("androidx.recyclerview:recyclerview:1.3.2")
+
 
     // Firebase (explicit coordinates instead of version catalog entries)
     implementation(platform("com.google.firebase:firebase-bom:34.3.0"))
     implementation("com.google.firebase:firebase-analytics")
+    implementation("com.google.firebase:firebase-auth")
     implementation("com.google.firebase:firebase-database")
 
     testImplementation(libs.junit)

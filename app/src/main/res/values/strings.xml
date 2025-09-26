@@ -28,4 +28,22 @@
     <string name="health">Health</string>
     <string name="continue_text">Continue</string>
     <string name="preferences_note">You can always change your preferences later in the settings</string>
+
+    <string-array name="pet_types">
+        <item>Select pet type</item>
+        <item>Dog</item>
+        <item>Cat</item>
+        <item>Hamster</item>
+        <item>Rat</item>
+        <item>Rabbit</item>
+        <item>Bird</item>
+        <item>Fish</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="feeding_schedules">
+        <item>1 time per day</item>
+        <item>2 times per day</item>
+        <item>3 times per day</item>
+    </string-array>
 </resources>

@@ -2,10 +2,11 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background_light"
-    tools:context=".OnboardingActivity">
+    tools:context=".OnboardingActivity1">
 
     <!-- Skip button -->
     <TextView
@@ -27,8 +28,8 @@
     <!-- Title -->
     <LinearLayout
         android:id="@+id/content_container"
-        android:layout_width="329dp"
-        android:layout_height="398dp"
+        android:layout_width="302dp"
+        android:layout_height="330dp"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
         android:background="@drawable/placeholder_main_image"
@@ -43,7 +44,7 @@
         <!-- Shopping bag icon -->
         <FrameLayout
             android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_height="62dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="32dp"
             android:background="@drawable/logo_background">
@@ -69,21 +70,24 @@
                 android:layout_width="80dp"
                 android:layout_height="60dp"
                 android:layout_marginEnd="12dp"
-                android:background="@drawable/cat"
-                android:scaleType="centerCrop" />
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/accessory" />
 
             <ImageView
                 android:layout_width="80dp"
                 android:layout_height="60dp"
                 android:layout_marginEnd="12dp"
-                android:background="@drawable/chewy"
-                android:scaleType="centerCrop" />
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cloth" />
 
             <ImageView
                 android:layout_width="80dp"
                 android:layout_height="60dp"
-                android:background="@drawable/treat"
-                android:scaleType="centerCrop" />
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/petfood" />
 
         </LinearLayout>
 
@@ -92,7 +96,7 @@
             android:layout_width="278dp"
             android:layout_height="152dp"
             android:layout_marginBottom="24dp"
-            android:background="@drawable/doggy" />
+            android:background="@drawable/cats" />
 
     </LinearLayout>
 
@@ -167,7 +171,7 @@
         android:layout_height="56dp"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="52dp"
         android:background="@drawable/get_started_button"
         android:elevation="4dp"
         android:text="Next"

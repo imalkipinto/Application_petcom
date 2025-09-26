@@ -11,15 +11,62 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.FinalApp">
-        <activity
-            android:name=".MainActivity2"
-            android:exported="false" />
+        android:theme="@style/Theme.FinalApp"
+        android:largeHeap="true">
+
         <activity
             android:name=".PetDetailsActivity"
             android:exported="false" />
         <activity
+            android:name=".OnboardingActivity1"
+            android:exported="false" />
+        <activity
+            android:name=".OnboardingActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".OnboardingActivity3"
+            android:exported="false" />
+        <activity
             android:name=".InterestsSelectionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ShopActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ServicesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TrainersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DaycareActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GroomingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BlogActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BookServiceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PurchaseItemActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CheckoutActivity"
             android:exported="false" />
         <activity
             android:name=".LoginActivity"
