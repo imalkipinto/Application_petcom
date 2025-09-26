@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">FinalApp</string>
     <string name="get_started">Get started</string>
@@ -7,14 +8,24 @@
     <string name="todo2">TODO</string>
     <string name="skip">Skip</string>
     <string name="next">Next</string>
-    <string name="book_vets_grooming_more">Book vets, grooming &amp; more</string>
-    <string name="schedule_appointments">Schedule appointments for all your pet\'s needs in one place.</string>
+    <string name="book_vets_grooming_more">Book vets grooming  more</string>
+    <string name="schedule_appointments">Schedule appointments for all your pets needs in one place</string>
     <string name="vet">Vet</string>
     <string name="grooming">Grooming</string>
     <string name="training">Training</string>
-    <string name="smart_reminders_ai_help">Smart reminders &amp; AI help</string>
-    <string name="never_forget_meal_medicine">Never forget a meal, medicine, or appointment with intelligent alerts.</string>
-    <string name="bruno_vaccination_due">Bruno\'s vaccination is due in 5 days. Would you like to book a vet appointment?</string>
-    <string name="dog_food_supply_low">Your dog food supply is running low. Would you like to reorder Royal Canin Medium Adult?</string>
+    <string name="smart_reminders_ai_help">Smart reminders  AI help</string>
+    <string name="never_forget_meal_medicine">Never forget a meal medicine or appointment with intelligent alerts </string>
+    <string name="bruno_vaccination_due">Brunos vaccination is due in 5 days Would you like to book a vet appointment </string>
+    <string name="dog_food_supply_low">Your dog food supply is running low Would you like to reorder Royal Canin Medium Adult </string>
     <string name="get_started_final">Get Started</string>
+    <string name="select_your_interests">Select Your Interests</string>
+    <string name="interests_subtitle">What would you like to see in your feed? Tap to select multiple options.</string>
+    <string name="dog_food">Dog Food</string>
+    <string name="cat_food">Cat Food</string>
+    <string name="pet_toys">Pet Toys</string>
+    <string name="accessories">Accessories</string>
+    <string name="pet_clothing">Pet Clothing</string>
+    <string name="health">Health</string>
+    <string name="continue_text">Continue</string>
+    <string name="preferences_note">You can always change your preferences later in the settings</string>
 </resources>

@@ -230,7 +230,7 @@
         android:textSize="18sp"
         android:textStyle="bold"
         android:textColor="@color/white"
-        android:background="@drawable/get_started_button"
+        android:backgroundTint="@color/orange_primary"
         android:elevation="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"

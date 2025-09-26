@@ -77,7 +77,7 @@
                 <ImageView
                     android:layout_width="32dp"
                     android:layout_height="32dp"
-                    android:src="@drawable/ic_vet"
+                    android:src="@drawable/veticon"
                     android:layout_marginBottom="8dp" />
 
                 <TextView
@@ -105,7 +105,7 @@
                 <ImageView
                     android:layout_width="32dp"
                     android:layout_height="32dp"
-                    android:src="@drawable/ic_grooming"
+                    android:src="@drawable/grooming"
                     android:layout_marginBottom="8dp" />
 
                 <TextView
@@ -223,7 +223,7 @@
         android:textSize="18sp"
         android:textStyle="bold"
         android:textColor="@color/white"
-        android:background="@drawable/get_started_button"
+        android:backgroundTint="@color/orange_primary"
         android:elevation="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
